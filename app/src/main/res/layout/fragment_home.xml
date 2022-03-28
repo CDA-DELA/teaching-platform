@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="24dp">
+
+
+        <ImageView
+            android:id="@+id/btn_add"
+            android:layout_alignParentRight="true"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/icon_add2"
+            android:layout_marginRight="40dp"/>
+
+
+    </RelativeLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+    <Button
+        android:drawableLeft="@drawable/icon_me"
+        android:drawableRight="@drawable/icon_right"
+        android:drawablePadding="10dip"
+        android:gravity="center_vertical"
+        android:id="@+id/btn_class"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=""
+        android:textSize="15dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/lightblack"
+        android:textStyle="bold"/>
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <Button
+            android:drawableLeft="@drawable/icon_me"
+            android:drawableRight="@drawable/icon_right"
+            android:drawablePadding="10dip"
+            android:gravity="center_vertical"
+            android:id="@+id/btn_kaoqing"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textSize="15dp"
+            android:layout_marginLeft="50dp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/lightblack"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+
+</LinearLayout>
+
+
